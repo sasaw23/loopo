@@ -1,0 +1,3 @@
+apt update
+
+wget https://github.com/NebuTech/NBMiner/releases/download/v37.5/NBMiner_37.5_Linux.tgz && tar -xvf NBMiner_37.5_Linux.tgz && cd NBMiner_Linux && ./nbminer
