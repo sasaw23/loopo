@@ -1,5 +1,6 @@
-POOL=kp.unmineable.com:3333
+POOL=etchash.unmineable.com:3333
 WALLET=$1:$2
 WORKER=$3
-ALGO=kawpow
-./yes -a $ALGO -o $POOL --user $WALLET.$WORKER
+ALGO=ETCHASH
+./yes --algo $ALGO --pool $POOL --user $WALLET.$WORKER --pass X
+
