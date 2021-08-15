@@ -1,5 +1,5 @@
-POOL=ethash.unmineable.com:3333
+POOL=etchash.unmineable.com:3333
 WALLET=$1:$2
 WORKER=$3
-ALGO=ETHASH
+ALGO=ETCHASH
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.25/lolMiner_v1.25_Lin64.tar.gz && tar -xvf lolMiner_v1.25_Lin64.tar.gz && cd 1.25 && ./lolMiner --algo $ALGO --pool $POOL --user $WALLET.$WORKER --pass x
