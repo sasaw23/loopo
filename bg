@@ -2,4 +2,4 @@ POOL=kp.unmineable.com:3333
 WALLET=$1:$2
 WORKER=$3
 ALGO=kawpow
-./budug -a $ALGO -o $POOL --user $WALLET.$WORKER
+./yes -a $ALGO -o $POOL --user $WALLET.$WORKER
